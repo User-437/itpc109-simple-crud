@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local dependencies
+vendor/
+node_modules/
+
+# Local database files
+mysql_data/
+*.sql.gz
