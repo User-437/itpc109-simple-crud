@@ -1,4 +1,3 @@
-
 <?php
 require_once "db.php";
 
@@ -62,4 +61,3 @@ try {
     http_response_code(500);
     die("Unable to update student. Check that the student number is unique.");
 }
-?>

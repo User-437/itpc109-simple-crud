@@ -1,9 +1,8 @@
-
 <?php
 $host = "db";
 $dbname = "student_db";
 $username = "student_user";
-$password = "studentpass";
+$password = "student_pass";
 
 try {
     $pdo = new PDO(
@@ -26,4 +25,3 @@ try {
     error_log($e->getMessage());
     die("Database connection failed. Check Docker and MySQL.");
 }
-?>

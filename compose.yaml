@@ -17,7 +17,7 @@ services:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: student_db
       MYSQL_USER: student_user
-      MYSQL_PASSWORD: studentpass
+      MYSQL_PASSWORD: student_pass
     ports:
       - "3307:3306"
     volumes:
